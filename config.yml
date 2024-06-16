@@ -1,8 +1,23 @@
-title: Welcome to My Portfolio
-description: >- # this means to ignore newlines until "baseurl:"
-  A simple and minimal portfolio website.
+title: Arshdeep Singh's Portfolio
+description: A portfolio showcasing my projects and skills.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://arsh72.github.io/arshdeepsingh/" # the base hostname & protocol for your site
 
 # Build settings
 theme: minima
+
+# Custom settings
+author: Arshdeep Singh
+email: arshdeepsingh.354@gmail.com
+social:
+  linkedin: arshdeepsingh72
+  github: arsh72
+
+# Additional configurations
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Custom CSS
+include:
+  - assets/css/main.css
